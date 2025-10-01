@@ -7,9 +7,10 @@ import {
   SidebarGroupLabel,
   SidebarMenu,
   SidebarMenuButton,
-  SidebarMenuItem,
+  SidebarMenuItem
 } from '~/components/ui/sidebar';
 import { IconHome, IconList, IconUsers } from '#components';
+
 const items = [
   {
     title: 'Home',
