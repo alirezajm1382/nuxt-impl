@@ -13,7 +13,7 @@ export const usePosts = () => {
       },
     }).then(async (data) => {
       const user = await fetchUser(data[0]?.userId.toString());
-      return { ...data[0], ...user } as PostWithUser;
+      return { ...data[0], user } as PostWithUser;
     });
   };
 

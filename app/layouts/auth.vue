@@ -13,10 +13,6 @@ const navigationRoute = computed(() => {
   if (route.path.split('/').length > 2) return '/auth';
   else return '/';
 });
-
-watch(route, () => {
-  console.log(route.path.split('/'));
-});
 </script>
 
 <template>

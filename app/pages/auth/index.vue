@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import { Label } from '~/components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle } from '~/components/ui/card';
-import { Input } from '~/components/ui/input';
 import { Button } from '~/components/ui/button';
 
 definePageMeta({
   layout: 'auth',
 });
+
 useHead({
   title: 'Nuxt Tutorial | Auth',
 });
