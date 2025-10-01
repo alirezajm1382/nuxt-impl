@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     'shadcn-nuxt',
     'nuxt-lucide-icons',
     '@pinia/nuxt',
+    'pinia-plugin-persistedstate/nuxt'
   ],
   lucide: {
     namePrefix: 'Icon',
@@ -32,5 +33,5 @@ export default defineNuxtConfig({
      * @default "./components/ui"
      */
     componentDir: './components/ui',
-  },
+  }
 });
